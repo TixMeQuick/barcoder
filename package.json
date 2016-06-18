@@ -1,0 +1,27 @@
+{
+  "name": "barcoder",
+  "productName": "Barcoder",
+  "version": "1.0.0",
+  "description": "Creates barcodes either from user input or a barcode scanner",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TixMeQuick/barcoder.git"
+  },
+  "keywords": [
+    "barcode",
+    "electron"
+  ],
+  "author": "TixMeQuick",
+  "license": "Unlicense",
+  "homepage": "https://github.com/TixMeQuick/barcoder#readme",
+  "devDependencies": {
+    "bwip-js": "^1.0",
+    "electron-packager": "^7.0.4",
+    "electron-prebuilt": "^1.2.0",
+    "electron-rebuild": "^1.1.5"
+  }
+}

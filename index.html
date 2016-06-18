@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Barcoder</title>
+  </head>
+  <body>
+    <h1>Barcoder</h1>
+    <textarea id='text-input' rows='25' cols='50'>OD
+N
+D8
+S2
+ZT
+JF
+I8,1
+Q2190,24
+q304
+B43,2000,0,UA0,2,6,140,B,"023012900517"
+A79,1450,3,2,1,1,N,"INGREDIENTS: (FILLING:CABBAGE,SHRIMP,SOYBEAN OIL,SESAME OIL,ONION,CHIVE,WHEAT STARCH,GINGER,SALT,SUGAR,MODIFIED"
+A95,1450,3,2,1,1,N,"TAPIOCA STARCH,MIRIN,VEGETABLE POWDER) DOUGH:WHEAT FLOUR,MODIFIED TAPIOCA STARCH,SALT,WATER) "
+A126,1450,3,2,1,1,N,"CONTAINS: SHELLFISH,SOY,WHEAT"
+A24,1250,3,3,2,1,N,"DUMPLINGS"
+A30,545,3,1,1,1,N,"<>< NO RAW USED"
+A250,1250,3,3,2,1,N,"NET WT. 6 OZ. (170g)"
+A250,545,3,3,2,1,N,"$4.12"
+P1</textarea>
+  <img src='' alt='barcode will show here' id='barcode' />
+  <br>
+  <button id='encode-input'>Create barcode</button>
+  <button id='print'>Print</button>
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./barcoder.js')
+  </script>
+</html>
